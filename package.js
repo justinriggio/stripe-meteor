@@ -8,7 +8,7 @@ Package.on_use(function (api) {
 	
 	 // ensure backwards compatibility with Meteor pre-0.6.5
 	if (api.export){
-	    api.export('STRIPEMETEOR');
+	    api.export('StripeAPI');
 	}
     
 	api.add_files('stripe_client.js', 'client');
